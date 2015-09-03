@@ -48,8 +48,8 @@
     "url": "https://github.com/keithamus/eslint-config-strict.git"
   },
   "dependencies": {
-    "eslint": "^1.1.0",
-    "eslint-plugin-react": "^3.2.2"
+    "eslint": "^1.3.1",
+    "eslint-plugin-react": "^3.3.1"
   },
   "author": "Keith Cirkel <npm@keithcirkel.co.uk> (http://keithcirkel.co.uk/)",
   "license": "MIT",
