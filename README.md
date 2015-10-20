@@ -34,11 +34,19 @@ like so:
 }
 ```
 
+If you are using ES6 with React, you can enable the ES6 variant:
+
+```json
+{
+  "extends": ["strict-react/es6"]
+}
+```
+
 Add any additional plugins you want, for example:
 
 ```json
 {
-  "extends": ["other-config", "strict-react"]
+  "extends": ["other-config", "strict-react/es6"]
 }
 ```
 
@@ -46,7 +54,7 @@ Feel free to define additional globals or rules, or override them as you see fit
 
 ```json
 {
-  "extends": ["strict-react"],
+  "extends": ["strict-react/es6"],
 
   "globals": {
     "blarg": true
