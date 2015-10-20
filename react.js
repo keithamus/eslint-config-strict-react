@@ -14,7 +14,14 @@ module.exports = {
             2,
             {
                 // Accept names from ES6 Classes or proper exports
-                acceptTranspilerName: true,
+                'acceptTranspilerName': true,
+            },
+        ],
+        // Forbid certain propTypes
+        'react/forbid-prop-types': [
+            2,
+            {
+                'forbid': [ 'any', 'object', 'array' ],
             },
         ],
         // Enforce boolean attributes notation in JSX
@@ -24,7 +31,7 @@ module.exports = {
             2,
             {
                 // ensure closing bracket aligns to the opening tag
-                location: 'tag-aligned',
+                'location': 'tag-aligned',
             },
         ],
         // Enforce or disallow spaces inside of curly braces in JSX attributes.
@@ -43,7 +50,7 @@ module.exports = {
         'react/jsx-max-props-per-line': [
             2,
             {
-                maximum: 3,
+                'maximum': 3,
             },
         ],
         // Prevent duplicate properties in JSX
@@ -68,6 +75,8 @@ module.exports = {
         'react/no-did-mount-set-state': [2, 'allow-in-func'],
         // Prevent usage of setState in componentDidUpdate
         'react/no-did-update-set-state': 2,
+        // Prevent direct mutation of this.state
+        'react/no-direct-mutation-state': 2,
         // Prevent multiple component definition per file
         'react/no-multi-comp': 2,
         // Prevent usage of setState
