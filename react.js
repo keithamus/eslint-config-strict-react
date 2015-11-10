@@ -53,6 +53,8 @@ module.exports = {
                 'maximum': 3,
             },
         ],
+        // No .bind() or Arrow Functions in JSX Props
+        'react/jsx-no-bind': 2,
         // Prevent duplicate properties in JSX
         'react/jsx-no-duplicate-props': 2,
         // Prevent usage of unwrapped JSX strings
