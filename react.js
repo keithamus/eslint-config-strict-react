@@ -80,7 +80,14 @@ module.exports = {
         // Prevent direct mutation of this.state
         'react/no-direct-mutation-state': 2,
         // Prevent multiple component definition per file
-        'react/no-multi-comp': 2,
+        'react/no-multi-comp': [
+            2,
+            {
+                // Ignore stateless components to encourage
+                // "micro-componentisation"
+                'ignoreStateless': true,
+            }
+        ],
         // Prevent usage of setState
         'react/no-set-state': 0,
         // Prevent usage of unknown DOM property
