@@ -76,9 +76,15 @@ module.exports = {
     // Prevent usage of dangerous JSX properties
     'react/no-danger': 2,
     // Prevent usage of setState in componentDidMount
-    'react/no-did-mount-set-state': [2, 'allow-in-func'],
+    'react/no-did-mount-set-state': [
+      2,
+      'allow-in-func',
+    ],
     // Prevent usage of setState in componentDidUpdate
-    'react/no-did-update-set-state': 2,
+    'react/no-did-update-set-state': [
+      2,
+      'allow-in-func',
+    ],
     // Prevent direct mutation of this.state
     'react/no-direct-mutation-state': 2,
     // Prevent multiple component definition per file
