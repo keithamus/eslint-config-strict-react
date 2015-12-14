@@ -37,13 +37,17 @@ module.exports = {
     // Enforce or disallow spaces inside of curly braces in JSX attributes.
     'react/jsx-curly-spacing': [
       2,
-        // Spaces are not allowed ever
+      // Spaces are not allowed ever
       'never',
     ],
     // Validate props indentation in JSX
     'react/jsx-indent-props': [
       2,
-        // indent by 2 spaces
+      // indent by 2 spaces
+      2,
+    ],
+    // Detect missing `key` prop
+    'react/jsx-key': [
       2,
     ],
     // Limit maximum of props on a single line in JSX
