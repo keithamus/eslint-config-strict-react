@@ -1,8 +1,43 @@
 {
   "name": "eslint-config-strict-react",
-  "version": "4.0.1",
+  "version": "0.0.0-development",
   "description": "eslint-config-strict for React",
+  "keywords": [
+    "check",
+    "checker",
+    "code",
+    "code checker",
+    "code linter",
+    "code standards",
+    "code style",
+    "enforce",
+    "eslint",
+    "eslintconfig",
+    "hint",
+    "jscs",
+    "jshint",
+    "lint",
+    "policy",
+    "quality",
+    "simple",
+    "strict",
+    "strict style",
+    "style",
+    "style checker",
+    "style linter",
+    "verify"
+  ],
+  "license": "MIT",
+  "author": "Keith Cirkel <npm@keithcirkel.co.uk> (http://keithcirkel.co.uk/)",
   "main": "react.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keithamus/eslint-config-strict.git"
+  },
+  "scripts": {
+    "test": "eslint .",
+    "semantic-release": "travis-after-all && semantic-release pre && npm publish && semantic-release post"
+  },
   "eslintConfig": {
     "env": {
       "node": true
@@ -22,40 +57,12 @@
       ]
     }
   },
-  "keywords": [
-    "strict",
-    "style checker",
-    "code style",
-    "code checker",
-    "code linter",
-    "style linter",
-    "simple",
-    "policy",
-    "style",
-    "code",
-    "lint",
-    "eslint",
-    "eslintconfig",
-    "jshint",
-    "jscs",
-    "hint",
-    "enforce",
-    "check",
-    "verify",
-    "quality",
-    "checker",
-    "code standards",
-    "strict style"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/keithamus/eslint-config-strict.git"
-  },
   "dependencies": {
     "eslint": "^1.9.0",
     "eslint-plugin-react": "^3.8.0"
   },
-  "author": "Keith Cirkel <npm@keithcirkel.co.uk> (http://keithcirkel.co.uk/)",
-  "license": "MIT",
-  "scripts": {}
+  "devDependencies": {
+    "semantic-release": "^4.3.5",
+    "travis-after-all": "^1.4.4"
+  }
 }
