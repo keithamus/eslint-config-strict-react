@@ -38,8 +38,14 @@
     "url": "https://github.com/keithamus/eslint-config-strict.git"
   },
   "scripts": {
-    "test": "eslint .",
-    "semantic-release": "travis-after-all && semantic-release pre && npm publish && semantic-release post"
+    "semantic-release": "travis-after-all && semantic-release pre && npm publish && semantic-release post",
+    "test": "eslint ."
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm t",
+      "commit-msg": "validate-commit-msg"
+    }
   },
   "eslintConfig": {
     "env": {
@@ -65,7 +71,9 @@
     "eslint-plugin-react": "^3.11.3"
   },
   "devDependencies": {
+    "ghooks": "^1.0.1",
     "semantic-release": "^4.3.5",
-    "travis-after-all": "^1.4.4"
+    "travis-after-all": "^1.4.4",
+    "validate-commit-msg": "^1.0.0"
   }
 }
