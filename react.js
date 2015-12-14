@@ -40,6 +40,14 @@ module.exports = {
       // Spaces are not allowed ever
       'never',
     ],
+    // Enforce event handler naming conventions in JSX
+    'react/jsx-handler-names': [
+      2,
+      {
+        eventHandlerPrefix: 'handle',
+        eventHandlerPropPrefix: 'on',
+      },
+    ],
     // Validate props indentation in JSX
     'react/jsx-indent-props': [
       2,
