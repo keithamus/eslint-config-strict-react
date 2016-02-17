@@ -5,7 +5,9 @@ module.exports = {
   ],
 
   ecmaFeatures: {
-    jsx: true,
+    parserOptions: {
+      jsx: true,
+    },
   },
 
   rules: {
