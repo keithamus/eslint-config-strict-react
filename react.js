@@ -15,8 +15,8 @@ module.exports = {
     'react/display-name': [
       2,
       {
-    // Accept names from ES6 Classes or proper exports
-        'acceptTranspilerName': true,
+        // Accept names from ES6 Classes or proper exports
+        'ignoreTranspilerName': false,
       },
     ],
     // Forbid certain propTypes
