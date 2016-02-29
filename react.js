@@ -78,7 +78,7 @@ module.exports = {
     // Enforce PasalCase for user-defined JSX components
     'react/jsx-pascal-case': 2,
     // Enforce propTypes declarations alphabetical sorting
-    'react/jsx-sort-prop-types': 0,
+    'react/sort-prop-types': 0,
     // Enforce props alphabetical sorting
     'react/jsx-sort-props': 0,
     // Prevent React to be incorrectly marked as unused
