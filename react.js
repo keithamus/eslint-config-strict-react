@@ -81,6 +81,11 @@ module.exports = {
     'react/sort-prop-types': 0,
     // Enforce props alphabetical sorting
     'react/jsx-sort-props': 0,
+    // Validate spacing before closing bracket in JSX
+    'react/jsx-space-before-closing': [
+      2,
+      'always',
+    ],
     // Prevent React to be incorrectly marked as unused
     'react/jsx-uses-react': 2,
     // Prevent variables used in JSX to be incorrectly marked as unused
