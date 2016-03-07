@@ -68,12 +68,12 @@
   },
   "dependencies": {
     "eslint": "^2.2.0",
-    "eslint-plugin-react": "^4.1.0"
+    "eslint-plugin-react": "^4.2.0"
   },
   "devDependencies": {
     "ghooks": "^1.0.3",
     "semantic-release": "^4.3.5",
     "travis-after-all": "^1.4.4",
-    "validate-commit-msg": "^2.1.0"
+    "validate-commit-msg": "^2.3.1"
   }
 }
