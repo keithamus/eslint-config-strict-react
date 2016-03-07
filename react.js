@@ -117,6 +117,8 @@ module.exports = {
     'react/no-set-state': 0,
     // Prevent usage of unknown DOM property
     'react/no-unknown-property': 2,
+    // Enforce stateless React Components to be written as a pure function
+    'prefer-stateless-function': 2,
     // Prevent missing props validation in a React component definition
     'react/prop-types': 2,
     // Prevent missing React when using JSX
