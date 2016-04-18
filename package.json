@@ -68,7 +68,7 @@
   },
   "dependencies": {
     "eslint": "^2.5.0",
-    "eslint-plugin-react": "^4.2.0"
+    "eslint-plugin-react": "^5.0.1"
   },
   "devDependencies": {
     "ghooks": "^1.0.3",
