@@ -67,7 +67,7 @@
     }
   },
   "dependencies": {
-    "eslint": "^3.2.2",
+    "eslint": "^2.5.0",
     "eslint-plugin-react": "^6.0.0"
   },
   "devDependencies": {
