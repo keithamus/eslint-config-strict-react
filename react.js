@@ -128,6 +128,6 @@ module.exports = {
     // Enforce component methods order
     'react/sort-comp': 2,
     // Prevent missing parentheses around multiline JSX
-    'react/wrap-multilines': 2,
+    'react/jsx-wrap-multilines': 2,
   },
 };
