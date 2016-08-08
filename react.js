@@ -95,12 +95,10 @@ module.exports = {
     // Prevent usage of setState in componentDidMount
     'react/no-did-mount-set-state': [
       2,
-      'allow-in-func',
     ],
     // Prevent usage of setState in componentDidUpdate
     'react/no-did-update-set-state': [
       2,
-      'allow-in-func',
     ],
     // Prevent direct mutation of this.state
     'react/no-direct-mutation-state': 2,
@@ -130,6 +128,6 @@ module.exports = {
     // Enforce component methods order
     'react/sort-comp': 2,
     // Prevent missing parentheses around multiline JSX
-    'react/wrap-multilines': 2,
+    'react/jsx-wrap-multilines': 2,
   },
 };
