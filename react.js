@@ -58,9 +58,9 @@ module.exports = {
     // Restrict file extensions that may contain JSX
     'react/jsx-filename-extension': [
       2,
-      // Spaces are not allowed ever
+      // Allow .js, .jsx files.
       {
-        'extensions': '.js',
+        'extensions': ['.js', '.jsx'],
       },
     ],
     // Configure the position of the first property
